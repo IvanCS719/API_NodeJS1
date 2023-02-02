@@ -1,6 +1,7 @@
 const express = require('express');
 const mysql = require('mysql');
 const cors = require('cors');
+const { json } = require('express');
 
 //Haciendo referencia al constructor de express
 //Creación de objeto, para acceder a todos los metodos y propiedades de express
